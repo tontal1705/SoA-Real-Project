@@ -1,8 +1,80 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: black;
 }
 
-a {
-  color: #00B7FF;
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 270px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    font-family: 'Mitr', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-weight: bold;
+    font-family: 'K2D', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-style: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.protect {
+    text-align: center;
+}
+
+.text {
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.box {
+    background-color: red;
+}
+
+.table thead th {
+    color: white;
+}
+
+.table td,
+.table th {
+    color: white;
 }
